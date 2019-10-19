@@ -1,4 +1,6 @@
 ## SymfonySkull
 
-- Modifier le .env en fonction du .env.dist
-- Ne pas oublie de changer le nom de la bdd dans le .env et .env.dist et dans le docker
+- Create .env and copy .env.dist on .env 
+- d exec -it webdevops/php-nginx:7.2 /bin/bash
+- composer install 
+- http://localhost:81
