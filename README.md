@@ -1,6 +1,7 @@
 ## SymfonySkull
 
 - Create .env and copy .env.dist on .env 
-- d exec -it webdevops/php-nginx:7.2 /bin/bash
-- composer install 
+- docker-compose up --build -d
+- docker-compose exec web composer install
+- docker-compose exec web bin/console doctrine:schema:update --force
 - http://localhost:81
