@@ -1,0 +1,2 @@
+- You can improve registration, connection and design
+- add new features 
